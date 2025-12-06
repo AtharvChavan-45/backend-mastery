@@ -1,4 +1,4 @@
-### backend-mastery
+# backend-mastery
 A modular and scalable backend crafted with Node.js + Express + MongoDB. Plug-and-play APIs, smooth authentication, clean architecture, and ready for real-world deployment. Clone → Install → Run → Build!
 
 ## Express for routing
@@ -31,7 +31,7 @@ Mongoose helps you:
 ```js
 const mongoose = require('mongoose');
 ```
-# Schema = structure or blueprint of data
+### Schema = structure or blueprint of data
 
 ```js
 const userSchema = new mongoose.Schema({
@@ -40,7 +40,7 @@ const userSchema = new mongoose.Schema({
   email: String
 })
 ```
-# Model — creating collection (table)
+### Model — creating collection (table)
 
 ```js
 const User = mongoose.model('User', userSchema)

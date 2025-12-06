@@ -4,10 +4,10 @@ A modular and scalable backend crafted with Node.js + Express + MongoDB. Plug-an
 ## Express for routing
 
 Express is a backend framework in Node.js that helps you:
-	•	Build web servers
-	•	Create APIs
-	•	Handle HTTP requests (GET, POST, etc.)
-	•	Send responses to the client (browser, frontend app)
+ - Build web servers
+ - Create APIs
+ - Handle HTTP requests (GET, POST, etc.)
+ - Send responses to the client (browser, frontend app)
 
 It makes server development easy, fast, and organized.
 
@@ -23,10 +23,10 @@ const app = express();// App is now your server
 - MongoDB stores data in a non-SQL format (documents).
 
 Mongoose helps you:
-✔ Connect Node.js app to MongoDB
-✔ Create database tables (called models)
-✔ Validate data (proper format)
-✔ Run queries (find, update, delete data)
+- ✔ Connect Node.js app to MongoDB
+- ✔ Create database tables (called models)
+- ✔ Validate data (proper format)
+- ✔ Run queries (find, update, delete data)
 
 ```js
 const mongoose = require('mongoose');

@@ -47,3 +47,25 @@ const User = mongoose.model('User', userSchema)
 ```
 This creates a User collection in MongoDB
 (Collection = table in SQL)
+
+## dotenv package -
+
+- dotenv is a package that helps you store secret information (like passwords, database links, API keys) in a separate file called .env
+- Instead of writing secrets directly in your code, you write them in .env file
+- - require('dotenv').config(); loads those secret values into your project so you can use them
+
+# .env file
+
+```js
+PORT=5000
+MONGO_URI=mysecretpassword
+```
+# server.js file
+
+```js
+require('dotenv').config();
+
+console.log(process.env.PORT);       // 5000
+console.log(process.env.MONGO_URI); // mysecretpassword
+```
+
